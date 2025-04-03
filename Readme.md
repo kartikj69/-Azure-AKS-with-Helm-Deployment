@@ -48,7 +48,12 @@ This repository demonstrates how to deploy resources on Azure Kubernetes Service
     terraform apply
     ```
 
-5. Verify the AKS cluster connection:
+5. Retrieve the AKS cluster credentials:
+    ```bash
+    az aks get-credentials --resource-group <RESOURCE_GROUP_NAME> --name <AKS_CLUSTER_NAME>
+    ```
+
+6. Verify the AKS cluster connection:
     ```bash
     kubectl get nodes
     ```
