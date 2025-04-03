@@ -1,0 +1,51 @@
+# Terraform files
+.terraform/
+.terraform.tfstate.lock.info
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfstate.*.backup
+.terraformrc
+terraform.rc
+*.tfplan
+.terraform.lock.hcl
+crash.log
+crash.*.log
+
+# Local .terraform directories
+**/.terraform/*
+
+# Variable files that may contain sensitive data
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Azure
+.azure/
+azure.err
+ApiManagement.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Credentials
+.env
+*.pem
+*.key
+*.pub
+kubeconfig
+**/credentials/*
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
