@@ -53,12 +53,6 @@ This repository demonstrates how to deploy resources on Azure Kubernetes Service
     kubectl get nodes
     ```
 
-6. Deploy Helm resources (e.g., NGINX):
-    ```bash
-    helm repo add bitnami https://charts.bitnami.com/bitnami
-    helm install nginx bitnami/nginx --namespace default
-    ```
-
 ## Files
 
 - `provider.tf`: Configures the Azure provider and authentication.
@@ -71,6 +65,7 @@ This repository demonstrates how to deploy resources on Azure Kubernetes Service
 
 - Ensure you are logged in to Azure using the `az login` command before proceeding.
 - Modify the `vars.tf` file to set your Azure subscription ID.
+- Update the `data.tf` file with your existing AKS cluster name and resource group name.
 
 ## References
 
