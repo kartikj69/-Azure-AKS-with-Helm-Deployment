@@ -29,7 +29,7 @@ This repository demonstrates how to deploy resources on Azure Kubernetes Service
 
 1. Clone this repository:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/kartikj69/-Azure-AKS-with-Helm-Deployment
     cd auth-AKS
     ```
 
